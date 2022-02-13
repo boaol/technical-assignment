@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>technical-assignment</title>
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="lib/plugins/leaflet.draw/leaflet.draw.css" />
+    <link
+      rel="stylesheet"
+      href="lib/plugins/leaflet.search/dist/leaflet-search.min.css"
+    />
+    <script src="lib/leaflet/leaflet.js"></script>
+    <script src="lib/plugins/leaflet.draw/leaflet.draw.js"></script>
+    <script src="lib/plugins/leaflet.draw.drag/leaflet.draw.drag.js"></script>
+    <script src="lib/plugins/leaflet.search/dist/leaflet-search.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- We will put our React component inside this div. -->
+    <div id="root"></div>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script
+      src="https://unpkg.com/react@16/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+
+    <!-- Load our React component. -->
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

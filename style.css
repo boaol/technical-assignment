@@ -1,0 +1,11 @@
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+
+.leaflet-control-toggle-edit {
+  width: 84px;
+  padding: 3px;
+  background-color: white;
+  text-align: center;
+}
